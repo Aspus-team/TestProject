@@ -43,7 +43,7 @@ jobs:
         with:
           # Web request URL endpoint
           # url: https://api.chucknorris.io/jokes/random - inital value
-          url: ${{ secrets.RANDOM_JOKE_URL }}  # value reading from secret
+          url: ${{ secrets.TEST_SECRET_4 }}  # value reading from secret
           # Web request method (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`)
           method: GET
           
