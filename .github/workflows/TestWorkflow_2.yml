@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: TestWorkflow_2
 
 # Controls when the workflow will run
 on:
@@ -43,7 +43,7 @@ jobs:
         with:
           # Web request URL endpoint
           # url: https://api.chucknorris.io/jokes/random - inital value
-          url: ${{ secrets.TEST_SECRET_4 }}  # value reading from secret
+          url: ${{ secrets.REPOSITORY_SECRET_2 }}  # value reading from secret
           # Web request method (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`)
           method: GET
           
